@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DBConnection
 {
 	private static final String DRIVER_CLASS = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
-	private static final String URL = "jdbc:sqlserver://localhost:1433;databaseName=employee;user=sa;password=Akhil@123ct";
+	private static final String URL = "jdbc:sqlserver://localhost:1433;databaseName=employee;user=sa;password=sa";
 	public static Connection con;
 
 	private DBConnection()
